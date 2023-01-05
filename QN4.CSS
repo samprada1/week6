@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color:#01342d ;
+    width: 100%;
+    display: flex;
+}
+.left{
+    padding-top: 20vh;
+    padding-left: 10vw;
+    width: 60%;
+    background-color: #01342d;
+    height: 468px;
+    float: left;
+}
+.left h1{
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 50px;
+    color: white;
+}
+.left p{
+    font-size: 18px;
+    margin-top: 25px;
+    color: white;
+}
+
+.sam p{
+   
+    margin-top: 130px;
+}
+
+.left{
+    width: 40%;
+}
+.right img{
+    height: 590px;
+    width: 500px;
+}
+@media (max-width:1254px) {
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
